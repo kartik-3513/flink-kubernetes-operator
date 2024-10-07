@@ -16,6 +16,11 @@
 # limitations under the License.
 ################################################################################
 # Build
+
+
+
+
+
 FROM maven:3.8.4-eclipse-temurin-11 AS build
 ARG SKIP_TESTS=true
 
